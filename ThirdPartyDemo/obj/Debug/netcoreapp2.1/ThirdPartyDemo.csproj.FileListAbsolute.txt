@@ -9,3 +9,14 @@ C:\Users\86771\Desktop\SampleTest\IdentityServerSample\ThirdPartyDemo\obj\Debug\
 C:\Users\86771\Desktop\SampleTest\IdentityServerSample\ThirdPartyDemo\bin\Debug\netcoreapp2.1\ThirdPartyDemo.pdb
 C:\Users\86771\Desktop\SampleTest\IdentityServerSample\ThirdPartyDemo\obj\Debug\netcoreapp2.1\ThirdPartyDemo.dll
 C:\Users\86771\Desktop\SampleTest\IdentityServerSample\ThirdPartyDemo\obj\Debug\netcoreapp2.1\ThirdPartyDemo.pdb
+C:\Users\86771\IdentityServer4\ThirdPartyDemo\bin\Debug\netcoreapp2.1\ThirdPartyDemo.deps.json
+C:\Users\86771\IdentityServer4\ThirdPartyDemo\bin\Debug\netcoreapp2.1\ThirdPartyDemo.runtimeconfig.json
+C:\Users\86771\IdentityServer4\ThirdPartyDemo\bin\Debug\netcoreapp2.1\ThirdPartyDemo.runtimeconfig.dev.json
+C:\Users\86771\IdentityServer4\ThirdPartyDemo\bin\Debug\netcoreapp2.1\ThirdPartyDemo.dll
+C:\Users\86771\IdentityServer4\ThirdPartyDemo\bin\Debug\netcoreapp2.1\ThirdPartyDemo.pdb
+C:\Users\86771\IdentityServer4\ThirdPartyDemo\obj\Debug\netcoreapp2.1\ThirdPartyDemo.csprojAssemblyReference.cache
+C:\Users\86771\IdentityServer4\ThirdPartyDemo\obj\Debug\netcoreapp2.1\ThirdPartyDemo.csproj.CoreCompileInputs.cache
+C:\Users\86771\IdentityServer4\ThirdPartyDemo\obj\Debug\netcoreapp2.1\ThirdPartyDemo.AssemblyInfoInputs.cache
+C:\Users\86771\IdentityServer4\ThirdPartyDemo\obj\Debug\netcoreapp2.1\ThirdPartyDemo.AssemblyInfo.cs
+C:\Users\86771\IdentityServer4\ThirdPartyDemo\obj\Debug\netcoreapp2.1\ThirdPartyDemo.dll
+C:\Users\86771\IdentityServer4\ThirdPartyDemo\obj\Debug\netcoreapp2.1\ThirdPartyDemo.pdb

@@ -30,7 +30,8 @@ namespace IdentityServerCenter
             services.AddIdentityServer()
                 .AddDeveloperSigningCredential() //是一种RSA证书加密方式，它会生成一个tempkey.rsa证书文件,项目每次启动时，会检查项目根目录是否存在该证书文件，若不存在，则会生成该文件，否则会继续使用该证书文件。
                 .AddInMemoryApiResources(Config.GetResources()) //从Config类里面读取刚刚定义的API资源到内存
-                .AddInMemoryClients(Config.GetClients());//从Config类里面读取刚刚定义的Client集合到内存
+                .AddInMemoryClients(Config.GetClients())//从Config类里面读取刚刚定义的Client集合到内存
+                .AddTestUsers(Config.GetUsers());
 
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_1);
         }

@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using IdentityServer4.Models;
+using IdentityServer4.Test;
 
 namespace IdentityServerCenter
 {
@@ -33,11 +34,31 @@ namespace IdentityServerCenter
                 new Client()
                 {
                     ClientId = "catClient",//唯一标识
-                    AllowedGrantTypes = GrantTypes.ClientCredentials,//授权模式为客户端模式
+                    AllowedGrantTypes = GrantTypes.ResourceOwnerPassword,//授权模式为密码模式
                     ClientSecrets = {
                         new Secret("catSecret".Sha256())
                     },//指定clientSecret
                     AllowedScopes = {"catApi"}//允许访问的Api资源
+                },
+
+            };
+        }
+
+        public static List<TestUser> GetUsers()
+        {
+            return new List<TestUser>
+            {
+                new TestUser
+                {
+                    SubjectId = "1",
+                    Username = "red",
+                    Password = "red123"
+                },
+                 new TestUser
+                {
+                    SubjectId = "2",
+                    Username = "blue",
+                    Password = "blue123"
                 }
             };
         }

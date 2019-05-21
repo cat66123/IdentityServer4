@@ -21,12 +21,15 @@ namespace ThirdPartyDemo
 
             // var tokenClient = new TokenClient(disco.TokenEndpoint, "client", "secret");
 
-            var tokenResponse = await client.RequestClientCredentialsTokenAsync(new ClientCredentialsTokenRequest
+            var tokenResponse = await client.RequestPasswordTokenAsync(new PasswordTokenRequest
             {
                 Address = disco.TokenEndpoint,
                 ClientId = "catClient",
                 ClientSecret = "catSecret",
-                Scope="catApi"
+                Scope="catApi",
+                UserName = "red",
+                Password = "red123"
+
             });
             if (tokenResponse.IsError)
             {

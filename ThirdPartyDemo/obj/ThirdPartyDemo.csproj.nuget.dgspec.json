@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\86771\\Desktop\\SampleTest\\IdentityServerSample\\ThirdPartyDemo\\ThirdPartyDemo.csproj": {}
+    "C:\\Users\\86771\\IdentityServer4\\ThirdPartyDemo\\ThirdPartyDemo.csproj": {}
   },
   "projects": {
-    "C:\\Users\\86771\\Desktop\\SampleTest\\IdentityServerSample\\ThirdPartyDemo\\ThirdPartyDemo.csproj": {
+    "C:\\Users\\86771\\IdentityServer4\\ThirdPartyDemo\\ThirdPartyDemo.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\86771\\Desktop\\SampleTest\\IdentityServerSample\\ThirdPartyDemo\\ThirdPartyDemo.csproj",
+        "projectUniqueName": "C:\\Users\\86771\\IdentityServer4\\ThirdPartyDemo\\ThirdPartyDemo.csproj",
         "projectName": "ThirdPartyDemo",
-        "projectPath": "C:\\Users\\86771\\Desktop\\SampleTest\\IdentityServerSample\\ThirdPartyDemo\\ThirdPartyDemo.csproj",
+        "projectPath": "C:\\Users\\86771\\IdentityServer4\\ThirdPartyDemo\\ThirdPartyDemo.csproj",
         "packagesPath": "C:\\Users\\86771\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\86771\\Desktop\\SampleTest\\IdentityServerSample\\ThirdPartyDemo\\obj\\",
+        "outputPath": "C:\\Users\\86771\\IdentityServer4\\ThirdPartyDemo\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
