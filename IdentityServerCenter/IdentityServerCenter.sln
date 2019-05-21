@@ -9,6 +9,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ClientCredentialApi", "..\C
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ThirdPartyDemo", "..\ThirdPartyDemo\ThirdPartyDemo.csproj", "{02054C83-631E-4719-BC1B-41B1E4092576}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CatClientCredentialApi", "..\CatClientCredentialApi\CatClientCredentialApi.csproj", "{F56AF165-50E4-4B10-BC3F-B091BCC20205}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{02054C83-631E-4719-BC1B-41B1E4092576}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{02054C83-631E-4719-BC1B-41B1E4092576}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{02054C83-631E-4719-BC1B-41B1E4092576}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F56AF165-50E4-4B10-BC3F-B091BCC20205}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F56AF165-50E4-4B10-BC3F-B091BCC20205}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F56AF165-50E4-4B10-BC3F-B091BCC20205}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F56AF165-50E4-4B10-BC3F-B091BCC20205}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

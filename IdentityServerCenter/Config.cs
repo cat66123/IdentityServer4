@@ -11,7 +11,8 @@ namespace IdentityServerCenter
         {
             return new List<ApiResource>
             {
-                new ApiResource("api","My Api")//资源名称，资源显示名称
+                new ApiResource("api","My Api"),//资源名称，资源显示名称
+                new ApiResource("catApi","Cat Api")
             };
         }
 
@@ -28,6 +29,15 @@ namespace IdentityServerCenter
                         new Secret("secret".Sha256())
                     },//指定clientSecret
                     AllowedScopes = {"api"}//允许访问的Api资源
+                },
+                new Client()
+                {
+                    ClientId = "catClient",//唯一标识
+                    AllowedGrantTypes = GrantTypes.ClientCredentials,//授权模式为客户端模式
+                    ClientSecrets = {
+                        new Secret("catSecret".Sha256())
+                    },//指定clientSecret
+                    AllowedScopes = {"catApi"}//允许访问的Api资源
                 }
             };
         }

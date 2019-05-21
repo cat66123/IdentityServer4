@@ -24,9 +24,9 @@ namespace ThirdPartyDemo
             var tokenResponse = await client.RequestClientCredentialsTokenAsync(new ClientCredentialsTokenRequest
             {
                 Address = disco.TokenEndpoint,
-                ClientId = "client",
-                ClientSecret = "secret",
-                Scope="api"
+                ClientId = "catClient",
+                ClientSecret = "catSecret",
+                Scope="catApi"
             });
             if (tokenResponse.IsError)
             {
@@ -40,7 +40,7 @@ namespace ThirdPartyDemo
 
 
             client.SetBearerToken(tokenResponse.AccessToken);
-            var response = await client.GetAsync("http://localhost:5001/api/values");
+            var response = await client.GetAsync("http://localhost:5002/api/values");
             if (!response.IsSuccessStatusCode)
             {
                 Console.WriteLine(response.StatusCode);
