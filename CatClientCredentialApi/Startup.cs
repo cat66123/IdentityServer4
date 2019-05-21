@@ -50,8 +50,8 @@ namespace CatClientCredentialApi
             }
 
             //app.UseHttpsRedirection();
-            app.UseMvc();
-            app.UseAuthentication();
+			app.UseAuthentication();
+            app.UseMvc();         
         }
     }
 }
